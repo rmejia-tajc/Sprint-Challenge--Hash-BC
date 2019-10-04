@@ -23,7 +23,7 @@ def get_indices_of_item_weights(weights, length, limit):
             return answer
         # if needed_num does NOT exists in ht...
         else:
-            # then add current index and value to ht
+            # then add current value and index to ht
             hash_table_insert(ht, weights[i], i)
     
     return None
